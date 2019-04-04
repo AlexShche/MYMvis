@@ -1,0 +1,107 @@
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif !important;
+}
+
+.row {
+  width: 100%;
+}
+
+.mainWidth {
+  width: 85%;
+  margin: 0 auto;
+}
+
+.slick-list {
+  overflow: visible !important;
+}
+
+nav {
+  padding: 22px 0;
+}
+nav .active {
+  border-bottom: 2px solid #1E1F23;
+}
+nav img {
+  cursor: pointer;
+  width: 60px;
+}
+nav span {
+  margin-top: 24px;
+  position: absolute;
+  letter-spacing: 0.07em;
+  margin-left: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #1E1F23;
+  font-family: "Lato", sans-serif !important;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 14px;
+}
+nav ul {
+  padding-top: 22px;
+  float: right;
+  list-style: none;
+}
+nav ul li {
+  letter-spacing: 0.07em;
+  margin-left: 42px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #1E1F23;
+  font-family: "Lato", sans-serif !important;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 14px;
+}
+
+#mainSlider {
+  padding-top: 70px;
+}
+#mainSlider .col-lg-6:first-child {
+  padding-top: 75px;
+}
+#mainSlider .col-lg-6:first-child p {
+  font-family: "Roboto", sans-serif !important;
+  color: #41463F;
+  font-size: 18px;
+  line-height: 34px;
+  letter-spacing: 0.03em;
+  width: 97%;
+}
+#mainSlider .col-lg-6:last-child img {
+  margin-left: -8%;
+  width: 120%;
+}
+#mainSlider h2 {
+  width: 110%;
+  font-size: 70px;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: bold;
+  letter-spacing: -0.01em;
+  margin-bottom: 70px;
+}
+#mainSlider .moreInfo {
+  cursor: pointer;
+  -webkit-box-shadow: 0px 10px 13px -9px #3011ed;
+  -moz-box-shadow: 0px 10px 13px -9px #3011ed;
+  box-shadow: 0px 10px 13px -9px #3011ed;
+  margin-top: 43px;
+  width: 215px;
+  height: 66px;
+  border-radius: 33px;
+  background: #1E1F23;
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: 0;
+  letter-spacing: 0.07em;
+  font-weight: bold;
+  font-family: "Lato", sans-serif !important;
+}
+#mainSlider .moreInfo:focus {
+  outline: none;
+}
+
+/*# sourceMappingURL=style.css.map */

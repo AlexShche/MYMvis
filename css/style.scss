@@ -1,0 +1,130 @@
+$mainWidth: 85%;
+$fontRoboto: 'Roboto', sans-serif !important;
+$fontLato: 'Lato', sans-serif !important;
+$fontSizeNav: 14px;
+$mainFontSize: 18px;
+$fontSize: 16px;
+$titleColor: #1E1F23;
+$textColor: #41463F;
+$fSizeTitleMainSlider: 70px;
+
+body{
+	overflow-x: hidden;
+	font-family: $fontRoboto;
+}
+
+.row{
+	width: 100%;
+}
+
+.mainWidth{
+	width: $mainWidth;
+	margin: 0 auto;
+}
+
+.slick-list {
+    overflow: visible !important;
+}
+
+nav{
+
+	padding: 22px 0;
+
+	.active{
+		border-bottom: 2px solid #1E1F23;
+	}
+
+	img{
+		cursor: pointer;
+		width: 60px;
+	}
+
+	span{
+		margin-top: 24px;
+    	position: absolute;
+		letter-spacing: 0.07em;
+		margin-left: 8px;
+		cursor: pointer;
+		font-weight: bold;
+		color: $titleColor;
+		font-family: $fontLato;
+		text-transform: uppercase;
+		display: inline-block;
+		font-size: $fontSizeNav;
+	}
+
+	ul{
+		padding-top: 22px;
+		float: right;
+		list-style: none;
+	}
+
+	ul li{
+		letter-spacing: 0.07em;
+		margin-left: 42px;
+		cursor: pointer;
+		font-weight: bold;
+		color: $titleColor;
+		font-family: $fontLato;
+		text-transform: uppercase;
+		display: inline-block;
+		font-size: $fontSizeNav;
+	}
+
+}
+
+#mainSlider{
+	padding-top: 70px;
+
+	.col-lg-6:first-child{
+		padding-top: 75px;
+
+		p{
+			font-family: $fontRoboto;
+			color: $textColor;
+			font-size: $mainFontSize;
+			line-height: 34px;
+			letter-spacing: 0.03em;
+			width: 97%;
+		}
+
+	}
+
+	.col-lg-6:last-child img{
+		margin-left: -8%;
+		width: 120%;
+	}
+
+	h2{
+		width: 110%;
+		font-size: $fSizeTitleMainSlider;
+		font-family: $fontRoboto;
+		font-weight: bold;
+		letter-spacing: -0.01em;
+		margin-bottom: 70px;
+	}
+
+	.moreInfo{
+		cursor: pointer;
+		-webkit-box-shadow: 0px 10px 13px -9px rgba(48,17,237,1);
+		-moz-box-shadow: 0px 10px 13px -9px rgba(48,17,237,1);
+		box-shadow: 0px 10px 13px -9px rgba(48,17,237,1);
+		margin-top: 43px;
+		width: 215px;
+		height: 66px;
+		border-radius: 33px;
+		background: $titleColor;
+		color: #fff;
+		font-size: $fontSizeNav;
+		text-transform: uppercase;
+		border: 0;
+		letter-spacing: 0.07em;
+		font-weight: bold;
+		font-family: $fontLato;
+	}
+
+	.moreInfo:focus{
+		outline: none
+	}
+
+}
